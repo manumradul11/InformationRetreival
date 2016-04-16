@@ -73,7 +73,7 @@ public class LuceneSearchEngine {
 	// ===================================================
 	// read input from user until he enters q for quit
 	// ===================================================	
-	String desktopPath = System.getProperty ("user.home") + "/Downloads/projectHW4/corpus/";
+	String desktopPath = System.getProperty ("user.home") + "/Documents/InformationRetreival/corpus/";
 	Set<String>  filepaths = new LinkedHashSet<String>();
 	File folder = new File(desktopPath);
 	File[] listOfFiles = folder.listFiles();

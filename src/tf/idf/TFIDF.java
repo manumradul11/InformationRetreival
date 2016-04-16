@@ -22,7 +22,7 @@ public class TFIDF {
     {
         
         TFIDF search = new TFIDF();
-        String folder = "/Users/manusaxena/Downloads/projectHW4/corpus";
+        String folder = "/Users/manusaxena/Documents/InformationRetreival/corpus";
         Map<String, List<FrequencyDoc>> index = new HashMap<String, List<FrequencyDoc>>();
         Map<String, Integer> docLength = new HashMap<String, Integer>();
         

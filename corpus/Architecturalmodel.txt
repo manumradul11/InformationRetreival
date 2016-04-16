@@ -1,0 +1,23 @@
+an architectural model is a type of a scale model - a physical representation of a structure - built to study aspects of an architectural design or to communicate design ideas
+depending upon the purpose models can be made from a variety of materials including blocks paper and wood and at a variety of scales
+
+
+architectural models are used by architects for a range of purposes ad hoc models are sometimes made to study the interaction of volumes or to get an idea of how they look from different angles and to explore ideas they can be used to exhibit and sell a design to help visualise a design a model may be useful in explaining a complicated or unusual design to the building team or as a focus for discussion between the design teams such as architects engineers and town planners models are also used as show pieces for instance as a feature in the reception of a building or as part of a museum exhibition such as scale replicas of historical buildings
+some types of model include -
+a model by architect lorenzo winslow which he used to explore the structure of the grand staircase at the white house for his redesign of the east wing
+model of a museum building
+model of a building interior
+a scale replica model of the demolished capitol theatre in causeway bay hong kong
+a model used for urban planning in the buenos aires province
+buildings are increasingly designed in software with cad computer-aided design systems early virtual modeling involved the fixing of arbitrary lines and points in virtual space mainly to produce technical drawings modern packages include advanced features such as databases of components automated engineering calculations visual fly-throughs dynamic reflections and accurate textures and colours
+rough study models can be made quickly using cardboard wooden blocks polystyrene foam foam boards and other materials such models are an efficient design tool for three-dimensional understanding of a structure space or form used by architects interior designers and exhibit designers
+common materials used for centuries in architectural model building were card stock balsa wood basswood and other woods modern professional architectural model builders are taking advantage of twenty-first century materials such as taskboard a flexible and lightweight woodfiber board plastics wooden and wooden-plastic composites foams foam board and urethane compounds cubes are commonly used stacked upon one another to build up an architectural model
+a number of companies produce ready-made pieces for structural components eg girders beams siding furniture figures people vehicles trees bushes and other features which are found in the models features such as vehicles people figurines trees street lights and other are called scenery elements and serve not only to beautify the model but also to help the observer to obtain a correct feel of scale and proportions represented by the model increasingly rapid prototyping and solid freeform fabrication '3d printing' are used to automatically construct models straight from cad plans
+the challenge with using these tools lies in the cad file format the majority of 3d printers accept the stereolithography stl for short file format which is basically a mesh that wraps around the object in 3-dimensions it helps to visualize this as a bag of oranges wrapped in a mesh bag if there is a tear in the bag the oranges will spill out this is similar to what happens when an stl file is not cleanly produced and prematurely sent to a 3d printer clean stl files are a major challenge for architecture models produced using this technology
+other rapid prototyping technology also cad based which become very useful for architectural model making is cnc carving large cnc carving plotters are able to carve out of high density foam boards up to 10' x 4' topography for architectural or urban model
+a model of two residential towers made of earthenware during the han dynasty in china
+paper architectural models of a bungalow office and house
+a wooden exterior model of the royal military college of canada grounds
+architectural models are being constructed at much smaller scale than their 11 counterpart
+the scales and their architectural use is broadly as follows
+sometimes model railroad scales such as 1160 and 187 are used due to ready availability of commercial figures vehicles and trees in those scales and models of large buildings are most often built in approximately that range of scales due to size considerations

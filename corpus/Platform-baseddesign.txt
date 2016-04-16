@@ -1,0 +1,1 @@
+platform-based design is defined in taxonomies for the development and verification of digital systems as an integration oriented design approach emphasising systematic reuse for developing complex products based upon platforms and compatible hardware and software virtual component intended to reduce development risks costs and time to market

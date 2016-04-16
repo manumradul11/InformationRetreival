@@ -1,0 +1,21 @@
+BM25:
+
+1. The structure of my index is hash map of —    < word ,[{docId,frequency},……]>
+2. I take each file in the corpus,read each word;line by line and build the index.
+3. I also create a hash map of - <docId,length of document>
+4. {docId,frequency} and {docId,score} are declared as an object for fast retrieval
+    and ease of manipulating the data
+5. I can also override the equals and compareto method of the object to suite our needs to just compare the docId between objects.
+6. After I generated a hash map of index and document length and the given four queries, I applied this to the BM25 formula using k1=1.2, b=0.75, k2=100
+7. And generated a document score for each docId to store in object-{docId,score}.
+
+
+Lucene:
+
+1.I Downloaded the lucene libraries and referenced to build path
+2.Downloaded and used the given java file to start
+3.With very little changes like automatically reading the path of each file in the corpus,I indexed each file of 1000 present
+  using the in-built Indexer class
+4.There after by manually reading given four queries, I parsed the query and search for in the index using in-built simpleAnalyzer and Search classes of lucent.
+5.using TopDocs retrieved the top 100 in descending order by score.
+

@@ -1,0 +1,11 @@
+low-level design lld is a component-level design process that follows a step-by-step refinement process this process can be used for designing data structures required software architecture source code and ultimately performance algorithms overall the data organization may be defined during requirement analysis and then refined during data design work post-build each component is specified in detail
+the lld phase is the stage where the actual software components are designed
+during the detailed phase the logical and functional design is done and the design of application structure is developed during the high-level design phase
+
+
+a design is the order of a system that connects individual components often it can interact with other systems design is important to achieve high reliability low cost and good maintain-ability we can distinguish two types of program design phases
+structured flow charts and hipo diagrams typify the class of software design tools and these provide a high-level overview of a program the advantages of such a design tool is that it yields a design specification that is understandable to nonprogrammers and it provides a good pictorial display of the module dependencies
+a disadvantage is that it may be difficult for software developers to go from graphic-oriented representation of software design to implementation therefore it is necessary to provide little insight into the algorithmic structure describing procedural steps to facilitate the early stages of software development generally using pdls
+the goal of lld or a low-level design document lldd is to give the internal logical design of the actual program code high-level design is created based on the low-level design lld describes the class diagrams with the methods and relations between classes and program specs it describes the modules so that the programmer can directly code the program from the document
+a good low-level design document makes the program easy to develop when proper analysis is utilized to create a low-level design document the code can then be developed directly from the low-level design document with minimal debugging and testing other advantages include lower cost and easier maintenance
+you can find an example of hld here sample hld after iterations that was initially developed as lldsample lld

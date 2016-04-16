@@ -1,0 +1,5 @@
+algorithm design is a specific method to create a mathematical process in solving problems applied algorithm design is algorithm engineering
+algorithm design is identified and incorporated into many solution theories of operation research such as dynamic programming and divide-and-conquer techniques for designing and implementing algorithm designs are algorithm design patterns such as template method pattern and decorator pattern and uses of data structures and name and sort lists some current day uses of algorithm design can be found in internet retrieval processes of web crawling packet routing and caching
+mainframe programming languages such as algol for algorithmic language fortran cobol pli sail and snobol are computing tools to implement an algorithm design but an algorithm design ad is not a language an ad can be a hand written process eg set of equations a series of mechanical processes done by hand an analog piece of equipment or a digital process andor processor
+one of the most important aspects of algorithm design is creating an algorithm that has an efficient runtime also known as its big oh
+steps in development of algorithms

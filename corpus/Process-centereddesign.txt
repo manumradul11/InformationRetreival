@@ -1,0 +1,8 @@
+process-centered design pcd is a design methodology which proposes a business centric approach for designing user interfaces because of the multi-stage business analysis steps involved right from the beginning of the pcd life cycle it is believed to achieve the highest levels of business-it alignment that is possible through ui
+
+
+this method is aimed at enterprise applications where there is a business process involved unlike content oriented systems such as websites or portals enterprise applications are built to enable a company's business processes enterprise applications often have a clear business goal and a set of specific objectives like- improve employee productivity increase business performance by a certain percent etc
+although there are proven ui design methodologies like the most popular user-centered design which helps design highly usable interfaces pcd differentiates itself by precisely catering to business process intensive software which has not been the case with other ui design methodologies
+process-ui alignment is a component of pcd which ensures tight alignment between the business process and the enterprise application being developed  ui design activities are affected by pcd
+for example a call center software used by a customer support agent if designed for high process-ui alignment will achieve tremendous agent productivity improvement and call center performance which is not likely to be seen if it were designed only for user satisfaction ease of use etc
+although pcd is not yet a widespread methodology papers and articles are beginning to be published and some case studies are also showcased the pcd community on linkedin a professional networking tool boasts a growing global membership

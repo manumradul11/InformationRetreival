@@ -1,0 +1,24 @@
+transmittance of the surface of a material is its effectiveness in transmitting radiant energy it is the fraction of incident electromagnetic power that is transmitted through a sample in contrast to the transmission coefficient which is the ratio of the transmitted to incident electric field
+internal transmittance refers to energy loss by absorption whereas total transmittance is that due to absorption scattering reflection etc
+
+
+hemispherical transmittance of a surface denoted t is defined as
+where
+spectral hemispherical transmittance in frequency and spectral hemispherical transmittance in wavelength of a surface denoted tν and tλ respectively are defined as
+where
+directional transmittance of a surface denoted tω is defined as
+where
+spectral directional transmittance in frequency and spectral directional transmittance in wavelength of a surface denoted tνω and tλω respectively are defined as
+where
+by definition transmittance is related to optical depth and to absorbance as
+where
+the beer–lambert law states that for n attenuating species in the material sample
+or equivalently that
+where
+attenuation cross section and molar attenuation coefficient are related by
+and number density and amount concentration by
+where na is the avogadro constant
+in case of uniform attenuation these relations become
+or equivalently
+cases of non-uniform attenuation occur in atmospheric science applications and radiation shielding theory for instance
+

@@ -52,8 +52,6 @@ public class LuceneSearchEngine {
     private ArrayList<File> queue = new ArrayList<File>();
 
     public static void main(String[] args) throws IOException {
-    	
-    Syns2Index("/Users/manusaxena/Downloads/prolog/wn_s.pl","index-2");
 	System.out.println("Enter the FULL path where the index will be created: (e.g. /Usr/index or c:\\temp\\index)");
         
 	String indexLocation = null;
@@ -120,6 +118,7 @@ public class LuceneSearchEngine {
 
     indexer.GetAllTermFrequencies(reader);
 	s = "";
+	int count=0;
 	while (!s.equalsIgnoreCase("q"))
 	{
 	    try
@@ -132,7 +131,7 @@ public class LuceneSearchEngine {
 	    		break;
 	    	}
 	    	
-	    	
+	    	count++;
 
 	    	Query q = new QueryParser("contents", simpleAnalyzer).parse(s);
             TopDocs td = searcher.search(q, 100);
@@ -144,7 +143,7 @@ public class LuceneSearchEngine {
     		
             try
             {
-            	FileWriter writer = new FileWriter("Q1-DOCUMENT-RANK.txt"); 
+            	FileWriter writer = new FileWriter("Q"+count+"-DOCUMENT-RANK.txt"); 
             	for (int i = 0; i < hits.length; ++i) {
         		    int docId = hits[i].doc;
         		    Document d = searcher.doc(docId);
@@ -177,15 +176,6 @@ public class LuceneSearchEngine {
         
 }
 
-    private static void Syns2Index(String string, String string2) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private static void Syns2Index() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	/**
      * Get all the term frequencies

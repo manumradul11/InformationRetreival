@@ -12,8 +12,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 import bm25.RankDoc;
+import lucene_Expansion_PsuedoRelevance.XMLQueryParser;
 import bm25.FrequencyDoc;
 
 public class TFIDF {
@@ -22,7 +24,7 @@ public class TFIDF {
     {
         
         TFIDF search = new TFIDF();
-        String folder = "/Users/manusaxena/Documents/InformationRetreival/corpus";
+        String folder = "/Users/manusaxena/Documents/InformationRetreival/cacm";
         Map<String, List<FrequencyDoc>> index = new HashMap<String, List<FrequencyDoc>>();
         Map<String, Integer> docLength = new HashMap<String, Integer>();
         
@@ -77,18 +79,20 @@ public class TFIDF {
             docLength.put(file.getName(), docLen);
         }
         
-        List<String> queries = new ArrayList<String>();
-        queries.add("global warming potential");
-        queries.add("green power renewable energy");
-        queries.add("solar energy california");
-        queries.add("light bulb bulbs alternative alternatives");
+        XMLQueryParser qp =new XMLQueryParser();
+    	Map<Integer, String> queries = new TreeMap<Integer, String>();
+    	queries = qp.getQueries();
+    	int count = 0;
+    	for(Map.Entry<Integer, String> dl : queries.entrySet())
+        { 
+    		String query = dl.getValue();
+    		count++;
+    		List<RankDoc> rankedList = search.calculateRankScore(query, docLength, index);
+    		search.fileWriter("Query" + count +"-DOCUMENT-RANK_TFIDF"+ ".txt", count, 100, rankedList);
+		}
         
-        int count = 0;
-        for(String query : queries) {
-            count++;
-            List<RankDoc> rankedList = search.calculateRankScore(query, docLength, index);
-            search.fileWriter("Query" + count +"-DOCUMENT-RANK_TFIDF"+ ".txt", count, 100, rankedList);
-        }
+        
+       
     }
    
     

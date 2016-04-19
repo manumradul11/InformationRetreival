@@ -51,7 +51,6 @@ public class FrequencyDoc implements Comparable<FrequencyDoc> {
         return true;
     }
     
-    @Override
     public int compareTo(FrequencyDoc df) {
         if(this.getFrequency()> df.getFrequency()){
                 return -1;

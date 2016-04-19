@@ -215,9 +215,6 @@ public class LuceneSearchEngine {
 	        	    
 	        	}
 	            
-	            System.out.println(s+"\n");
-	            
-	            
 	            
 	            q = new QueryParser("contents", simpleAnalyzer).parse(QueryParser.escape(s));
 	            td = searcher.search(q, 100);
@@ -226,11 +223,11 @@ public class LuceneSearchEngine {
 	    		
 	            try
 	            {
-	            	FileWriter writer = new FileWriter("Q"+count+"-DOCUMENT-RANK.txt"); 
+	            	FileWriter writer = new FileWriter("/Users/manusaxena/Documents/InformationRetreival/PsuedoRelevance results/"+"Q"+count+"-DOCUMENT-RANK.txt"); 
 	            	for (int i = 0; i < hits.length; ++i) {
 	        		    int docId = hits[i].doc;
 	        		    Document d = searcher.doc(docId);
-	        		    writer.write((i + 1) + ". " + d.get("path")+ "           score=" + hits[i].score+"\n");
+	        		    writer.write(count+"\t"+"Q0"+"\t"+ d.get("path")+"\t"+(i + 1)+"\t"+ hits[i].score+"\t"+"Manu"+"\n");
 	        		}
 	            	writer.close();
 		      	}

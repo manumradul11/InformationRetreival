@@ -50,7 +50,6 @@ public class RankDoc implements Comparable<RankDoc> {
 
     
     
-    @Override
     public int compareTo(RankDoc bm) {
         if(this.getScore() > bm.getScore()){
                 return -1;

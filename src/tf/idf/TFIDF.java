@@ -88,7 +88,7 @@ public class TFIDF {
     		String query = dl.getValue();
     		count++;
     		List<RankDoc> rankedList = search.calculateRankScore(query, docLength, index);
-    		search.fileWriter("Query" + count +"-DOCUMENT-RANK_TFIDF"+ ".txt", count, 100, rankedList);
+    		search.fileWriter("/Users/manusaxena/Documents/InformationRetreival/Tfidf RESULTS /"+"Query" + count +"-DOCUMENT-RANK_TFIDF"+ ".txt", count, 100, rankedList);
 		}
         
         
@@ -172,7 +172,9 @@ public class TFIDF {
             for(int j = 0; j < limit; j ++) 
             {
             	int k=j+1;
-                writer.write(k + "\t" + "Query-"+queryId+ "\t" + rankedList.get(j).getDocId() +  "\t" + rankedList.get(j).getScore() + "\t" +"\n");
+            	String rest_path="/Users/manusaxena/Documents/InformationRetreival/cacm/";
+            	writer.write(queryId+"\t"+"Q0"+"\t"+ rest_path+rankedList.get(j).getDocId()+"\t"+k+"\t"+ rankedList.get(j).getScore()+"\t"+"Manu"+"\n");
+                
             }
 
         }

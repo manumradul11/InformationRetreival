@@ -51,7 +51,6 @@ public class FrequencyTerm implements Comparable<FrequencyTerm> {
         return true;
     }
     
-    @Override
     public int compareTo(FrequencyTerm df) {
         if(this.getFrequency()> df.getFrequency()){
                 return -1;

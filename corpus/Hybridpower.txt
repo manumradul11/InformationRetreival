@@ -1,5 +1,0 @@
-hybrid power are combinations between different technologies to produce power
-in power engineering the term 'hybrid' describes a combined power and energy storage system it does not mean a method such as the popular use of hybrid to mean a hybrid electric vehicle like the toyota prius
-examples of power producers used in hybrid power are photovoltaics wind turbines and various types of generators - eg diesel gen-sets
-hybrid power plants can be balanced by diesel gensets or storage systems
-hybrid systems as the name implies combine two or more modes of electricity generation together usually using renewable technologies such as solar photovoltaic pv and wind turbines hybrid systems provide a high level of energy security through the mix of generation methods and often will incorporate a storage system battery fuel cell or small fossil fueled generator to ensure maximum supply reliability and security

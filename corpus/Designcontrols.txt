@@ -1,5 +1,0 @@
-design controls designates the application of a formal methodology to the conduct of product development activities it is often mandatory by regulation to implement such practice when designing and developing products within regulated industries eg medical devices
-since 1990 the food and drug administration fda has required that medical device manufacturers that want to market certain categories of medical devices in the usa follow design control requirements 21 cfr 820.30 at a high level this regulation requires
-the medical devices directive mdd 9342eec similarly lists several requirements regarding the design of a medical device iso 13485 is a voluntary standard that contains section 7.3 design and development recommending which procedures should be put in place by manufacturers in order to have a quality system that will comply with mdd 9342eec
-the objective of design controls in this context is to require that manufacturers follow a methodologically-sound process to develop a medical device with the intent of improving the probability that the device will reach an acceptable level of efficacy and safety
-

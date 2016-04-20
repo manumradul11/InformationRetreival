@@ -1,3 +1,0 @@
-adaptive web design is another term for progressive enhancement of a web site
-adaptive web design also encompasses a range of other strategies which can be combined with responsive web design
-the term was first coined by aaron gustafson in his book adaptive web design crafting rich experiences with progressive enhancement in may 2011 it is a high level design philosophy that can be achieved through a variety of execution tactics including server side user agent detection or client side responsive web design

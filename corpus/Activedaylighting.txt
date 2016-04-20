@@ -1,6 +1,0 @@
-active daylighting is a system of collecting sunlight using a mechanical device to increase the efficiency of light collection for a given lighting purpose active daylighting systems are different from passive daylighting systems in that passive systems are stationary and do not actively follow or track the sun
-
-
-there are two types of active daylighting control systems closed loop solar tracking and open loop solar tracking systems
-closed loop systems track the sun by relying on a set of lens or sensors with a limited field of view directed at the sun and are fully illuminated by sunlight at all times as the sun moves it begins to shade one or more sensors which the system detect and activates motors or actuators to move the device back into a position where all sensors are once again equally illuminated
-open loop systems track the sun without physically following the sun via sensors although sensors may be used for calibration these systems typically employ electronic logic which controls device motors or actuators to follow the sun based on a mathematical formula this formula is typically a pre-programmed sun path chart detailing where the sun will be at a given latitude and at a given date and time for each day

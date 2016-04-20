@@ -6,7 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="dist/Hw4.jar"/>
 	<classpathentry kind="lib" path="dist/lib/lucene-analyzers-common-5.3.1.jar"/>
 	<classpathentry kind="lib" path="dist/lib/lucene-core-5.3.1.jar"/>
 	<classpathentry kind="lib" path="dist/lib/lucene-queryparser-5.3.1.jar"/>

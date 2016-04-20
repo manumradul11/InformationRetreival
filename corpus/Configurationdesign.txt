@@ -1,3 +1,0 @@
-configuration design is a kind of design where a fixed set of predefined components that can be interfaced connected in predefined ways is given and an assembly ie designed artifact of components selected from this fixed set is sought that satisfies a set of requirements and obeys a set of constraints
-the associated design configuration problem consists of the following three constituent tasks
-types of knowledge involved in configuration design include
